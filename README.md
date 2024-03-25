@@ -2,11 +2,12 @@
 
 This is a PHP project that can be run using the built-in PHP development server.
 
-## Prerequisites
+## Implementation
 
-Before running the project, make sure you have the following installed on your machine:
+1. Show JSON data to an HTML table
+2. Implement sort by "price" using a PHP form
+3. Implement sort by "color" using JS
 
-- PHP (version 7 or higher)
 
 ## Getting Started
 
