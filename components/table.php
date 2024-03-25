@@ -67,14 +67,17 @@
 	</thead>
 	<tbody>
 		<?php
-		foreach ($data as $car) {
-			echo '<tr>';
-			echo '<td>' . $car['car_name'] . '</td>';
-			echo '<td>' . $car['price'] . '</td>';
-			echo '<td>' . $car['discount'] . '</td>';
-			echo '<td>' . $car['availability'] . '</td>';
-			echo '<td>' . $car['color'] . '</td>';
-			echo '</tr>';
+		// check if $data is set and not is an array
+		if (isset($data) && is_array($data)) {
+			foreach ($data as $car) {
+				echo '<tr>';
+				echo '<td>' . $car['car_name'] ?? "NA" . '</td>';
+				echo '<td>' . $car['price'] ?? "NA" . '</td>';
+				echo '<td>' . $car['discount'] ?? "NA" . '</td>';
+				echo '<td>' . $car['availability'] ?? "NA" . '</td>';
+				echo '<td>' . $car['color'] ?? "NA" . '</td>';
+				echo '</tr>';
+			}
 		}
 		?>
 	</tbody>
