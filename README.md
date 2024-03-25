@@ -17,3 +17,5 @@ Before running the project, make sure you have the following installed on your m
     cd test-project
     php -S 127.0.0.1:8000
 3. Go to browser and browes to http://127.0.0.1:8000
+
+4. view loom: https://www.loom.com/share/67ecb8ba704a4ccebc7905b8139246e2?sid=d4020dcc-fe5a-4a75-9f10-d5760482fa19
