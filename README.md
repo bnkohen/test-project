@@ -1,4 +1,4 @@
-# Project Name
+# Test Project
 
 This is a PHP project that can be run using the built-in PHP development server.
 
@@ -10,7 +10,7 @@ Before running the project, make sure you have the following installed on your m
 
 ## Getting Started
 
-1. Clone the repository to your local machine.
+1. Clone the repository or extract the zip file to your local machine.
 
 2. Navigate to the project directory:
     ```bash
